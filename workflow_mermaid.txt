@@ -1,0 +1,34 @@
+%%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	web_search(web_search)
+	retrieve(retrieve)
+	grade_documents(grade_documents)
+	generate(generate)
+	transform_query(transform_query)
+	finance_agent(finance_agent)
+	reasoning_agent(reasoning_agent)
+	sql_agents(sql_agents)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> retrieve;
+	finance_agent --> reasoning_agent;
+	reasoning_agent --> generate;
+	retrieve --> grade_documents;
+	web_search --> finance_agent;
+	grade_documents -.-> transform_query;
+	grade_documents -. &nbsp;not_answerable&nbsp; .-> finance_agent;
+	grade_documents -.-> generate;
+	grade_documents -.-> sql_agents;
+	transform_query -.-> retrieve;
+	transform_query -.-> web_search;
+	sql_agents -. &nbsp;not supported&nbsp; .-> generate;
+	sql_agents -. &nbsp;useful&nbsp; .-> __end__;
+	sql_agents -. &nbsp;not useful&nbsp; .-> transform_query;
+	sql_agents -. &nbsp;stop&nbsp; .-> __end__;
+	generate -. &nbsp;useful&nbsp; .-> __end__;
+	generate -. &nbsp;not useful&nbsp; .-> transform_query;
+	generate -. &nbsp;stop&nbsp; .-> __end__;
+	generate -. &nbsp;not supported&nbsp; .-> generate;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

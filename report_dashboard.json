@@ -1,0 +1,113 @@
+{
+    "metrics": [
+        {
+            "p_e_ratio": "37.29",
+            "p_b_ratio": "61.37",
+            "debt_to_equity_ratio": "1.87",
+            "free_cashflow": "$7.09 billion",
+            "peg_ratio": "-45.94",
+            "working_capital_ratio": "0.87",
+            "quick_ratio": "0.83",
+            "earning_ratio": "0.24",
+            "return_on_equity": "164.59%",
+            "esg_score": "Reflects recent developments and challenges"
+        }
+    ],
+    "revenue": [
+        {
+            "revenue_source": "iPhone",
+            "revenue_value": 205486000000
+        },
+        {
+            "revenue_source": "Mac",
+            "revenue_value": 40525000000
+        },
+        {
+            "revenue_source": "iPad",
+            "revenue_value": 29956000000
+        },
+        {
+            "revenue_source": "Wearables, Home and Accessories",
+            "revenue_value": 49900000000
+        },
+        {
+            "revenue_source": "Services",
+            "revenue_value": 81234000000
+        }
+    ],
+    "countries": [
+        {
+            "country": "United States of America",
+            "market_percentage": "45%"
+        },
+        {
+            "country": "China",
+            "market_percentage": "25%"
+        },
+        {
+            "country": "Germany",
+            "market_percentage": "10%"
+        },
+        {
+            "country": "United Kingdom",
+            "market_percentage": "8%"
+        },
+        {
+            "country": "India",
+            "market_percentage": "7%"
+        },
+        {
+            "country": "Japan",
+            "market_percentage": "5%"
+        }
+    ],
+    "team": [
+        {
+            "name": "Tim Cook",
+            "designation": "Chief Executive Officer",
+            "vision_for_company": "To maintain Apple's legacy of innovation, sustainability, and excellence, while expanding the company's product lines and services into new markets."
+        },
+        {
+            "name": "Luca Maestri",
+            "designation": "Chief Financial Officer",
+            "vision_for_company": "To ensure Apple's financial strength and stability, investing in strategic growth initiatives and maintaining operational efficiency."
+        },
+        {
+            "name": "Jeff Williams",
+            "designation": "Chief Operating Officer",
+            "vision_for_company": "To optimize Apple's operations, supply chain, and product quality, ensuring seamless integration and innovation across all departments."
+        }
+    ],
+    "goals": [
+        {
+            "sdg_number": "3",
+            "goal_description": "Good Health and Well-being",
+            "contribution": "Apple contributes to SDG 3 by integrating health tracking and wellness features into its devices, thereby promoting healthier lifestyles and providing users with tools to monitor their health."
+        },
+        {
+            "sdg_number": "4",
+            "goal_description": "Quality Education",
+            "contribution": "The company supports SDG 4 by providing educational tools and resources through technology, helping educational institutions enhance learning through iPads and various educational apps."
+        },
+        {
+            "sdg_number": "7",
+            "goal_description": "Affordable and Clean Energy",
+            "contribution": "Apple is working towards SDG 7 by committing to use 100% renewable energy in its facilities, as well as encouraging its suppliers to adopt clean energy in their operations."
+        },
+        {
+            "sdg_number": "9",
+            "goal_description": "Industry, Innovation and Infrastructure",
+            "contribution": "Apple supports SDG 9 through continuous technological advancements and innovations that contribute to building resilient infrastructure and fostering industry growth."
+        },
+        {
+            "sdg_number": "10",
+            "goal_description": "Reduced Inequalities",
+            "contribution": "By ensuring diverse and inclusive practices within its workforce and promoting diversity in the tech industry, Apple contributes to reducing inequalities."
+        },
+        {
+            "sdg_number": "17",
+            "goal_description": "Partnerships for the Goals",
+            "contribution": "Apple collaborates with governments, NGOs, and other corporations to address global issues such as climate change and sustainable development, supporting SDG 17."
+        }
+    ]
+}
