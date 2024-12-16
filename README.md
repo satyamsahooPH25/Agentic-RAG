@@ -13,6 +13,8 @@ FA3STER is an innovative multi-agent Retrieval-Augmented Generation (RAG) system
 The FA3STER system is built around a robust four-component architecture:
 
 ### **1. Pre-Retrieval and Retrieval Phase**
+![image](https://github.com/user-attachments/assets/c088a875-3143-4041-9fd2-27baee14aa42)
+
 - **Agentic Chunker**: Enhances document parsing with GPT-4o-mini for context-aware chunking, ensuring precise retrieval.
 - **Dynamic Data Management**: Utilizes Pathway's Real-Time Streaming Framework with Google Drive connector for real-time updates and ingestion.
 - **Hybrid Indexing**: Combines semantic vector embeddings (OpenAI’s text-embedding-3-small) with metadata filtering for efficient data retrieval.
@@ -20,6 +22,8 @@ The FA3STER system is built around a robust four-component architecture:
 - **Cohere Re-ranker**: Scores documents based on relevance to prioritize critical information.
 
 ### **2. Post-Retrieval Phase**
+![image](https://github.com/user-attachments/assets/f2a799f7-a164-4e4a-8eee-949a971db76c)
+
 - **LangGraph-Based Workflow**: Enables seamless communication between agents using a SELF-RAG architecture.
 - **Agentic Framework**:
   - **SQL Agent**: Extracts precise data from tables.
@@ -28,6 +32,8 @@ The FA3STER system is built around a robust four-component architecture:
   - **Web Search Integration**: Fetches real-time external data via Tavily Search.
 
 ### **3. Vertical Autonomous Layer**
+![image](https://github.com/user-attachments/assets/06056f71-a52f-4736-91f8-277843e27272)
+
 - A novel approach that vertically scales the system by interconnecting agents:
   - **Key Metrics Agent**: Focuses on financial health indicators like revenue and growth rates.
   - **Business Agent**: Evaluates market conditions and risks.
@@ -56,10 +62,10 @@ The FA3STER system is built around a robust four-component architecture:
 - **SEC-10Q Subset**: Tested robustness on complex multi-document queries.
 
 ### **Performance Metrics**
-| Workflow                          | Context Precision | Context Recall | Response Relevancy | Faithfulness | Factual Correctness |
-|-----------------------------------|-------------------|----------------|---------------------|--------------|---------------------|
-| Naive RAG w/ Agentic Chunking     | 0.904             | 0.849          | 0.928              | 0.901        | 0.518               |
-| Post-Retrieval Agentic Workflow   | 0.690             | 0.396          | 0.701              | 0.788        | 0.384               |
+![image](https://github.com/user-attachments/assets/abf45a96-1c6b-4cc7-94bd-47e38d80aeb7)
+
+![image](https://github.com/user-attachments/assets/255c807b-2fbd-4221-997b-3adc1cde843d)
+
 
 ---
 
