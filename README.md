@@ -1,6 +1,6 @@
 # FA3STER: Financial Agentic Autonomous and Accurate System Through Evolving Retrieval-Augmented Generation
 
-**Team 86 - Pathway End Term Submission**
+**Pathway End Term Submission**
 
 ## Overview
 
@@ -90,11 +90,5 @@ FA3STER exemplifies a transformative RAG application in the financial domain, le
 - **Enhanced Scalability**: Incorporating real-time market data through advanced ETL pipelines.
 - **Improved Explainability**: Refining agent communication for clearer output justifications.
 
----
 
-## Contributors
-
-Team 86
-
----
 
